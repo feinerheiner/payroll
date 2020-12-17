@@ -1,0 +1,46 @@
+H 42 17.25
+Collins, Bill
+H 37.5 12.45
+Smith, Bart
+S 1298.2
+Wilson, Carol
+H 40 21
+Allen, Jim
+C 22.5 47 835
+Griffin, Jim
+C 12.6 52 1215
+Stamey, Marty
+H 31.75 22.15
+Rose, Geri
+H 51 25
+Taylor, Terri K.
+S 3281.6
+Long, Willie
+H 33 14.5
+Johnson, Jill
+H 40 27.35
+Allison, Jeff
+H 0 15
+Looney, Joe I.
+C 8.5 62 2250
+Wolfe, Bill
+S 2154
+Hadden, Betty
+C 120 16 900
+James, Jean Will
+S 1845
+Weaver, Jim
+H 40.5 24.5
+Pore, Bob E.
+H 27 14.75
+Rutherford, Greg
+H 49.8 28.4
+Javens, Renee C.
+S 1895
+Harrison, Rose
+H 12.75 12.6
+Setzer, Cathy
+S 1920
+Pike, Gordon J.
+C 18.2 96 312
+Holland, Beth R.

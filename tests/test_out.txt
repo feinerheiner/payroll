@@ -1,0 +1,26 @@
+Jean Will James
+   Pay Rate: $120.00
+   How Many: 16
+   Commission: $1920.00
+   Base Pay: $900.00
+   Gross Pay: $2820.00
+Renee C. Javens
+   Hours Worked: 49.80
+   Pay Rate: $28.40
+   Gross Pay: $1553.48
+Rose Harrison
+   Pay Rate: $1895.00
+   Gross Pay: $1895.00
+Cathy Setzer
+   Hours Worked: 12.75
+   Pay Rate: $12.60
+   Gross Pay: $160.65
+Gordon J. Pike
+   Pay Rate: $1920.00
+   Gross Pay: $1920.00
+Beth R. Holland
+   Pay Rate: $18.20
+   How Many: 96
+   Commission: $1747.20
+   Base Pay: $312.00
+   Gross Pay: $2059.20

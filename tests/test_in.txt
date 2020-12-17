@@ -1,0 +1,12 @@
+C 120 16 900
+James, Jean Will
+H 49.8 28.4
+Javens, Renee C.
+S 1895
+Harrison, Rose
+H 12.75 12.6
+Setzer, Cathy
+S 1920
+Pike, Gordon J.
+C 18.2 96 312
+Holland, Beth R.
