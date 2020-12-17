@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+// author Richard Heiner
+
 using namespace std;
 
 int main() {
