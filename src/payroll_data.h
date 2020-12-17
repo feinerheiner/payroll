@@ -11,7 +11,7 @@ private:
 public:
     PayrollData();
     PayrollData(double pay_rate, std::string name);
-    ~PayrollData(){};
+    virtual ~PayrollData(){};
 
 
     double get_pay_rate() const;
