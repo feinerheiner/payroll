@@ -4,7 +4,7 @@
 
 class PayrollData{
 protected:
-    double pay_rate_;
+    double pay_rate;
     std::string first_name;
     std::string last_name;
 
@@ -18,7 +18,7 @@ public:
     std::string get_first_name() const;
     std::string get_last_name() const;
 
-    void set_pay_rate(double pay_rate);
+    void set_pay_rate(double);
     void set_name(std::string name);
     virtual double ComputeGross() = 0;
     virtual void WriteData(std::string output_file) = 0;

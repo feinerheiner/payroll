@@ -5,7 +5,7 @@
 
 
 
-PayrollData::PayrollData() : pay_rate_(0), first_name("it is"), last_name("unknown") { }
+PayrollData::PayrollData() : pay_rate(0), first_name("it is"), last_name("unknown") { }
 PayrollData::PayrollData(double pay_rate, std::string name){
     set_name(name);
     set_pay_rate(pay_rate);
@@ -25,17 +25,17 @@ void PayrollData::set_name(std::string name) {
 /**
  * @brief Sets the pay rate for the individual
  * @remark If pay_rate is less than the minimum wage than the pay_rate will be set to minimum wage
- * @param pay_rate a double that specifies the dolors per hour that is earned.
+ * @param _pay_rate a double that specifies the dolors per hour that is earned.
  */
-void PayrollData::set_pay_rate(double pay_rate) {
-    if (pay_rate < 0){
-        pay_rate_ = 0;
+void PayrollData::set_pay_rate(double _pay_rate) {
+    if (_pay_rate < 0){
+        pay_rate = 0;
     }else{
-        pay_rate_ = pay_rate;
+        pay_rate = _pay_rate;
     }
 }
 double PayrollData::get_pay_rate() const{
-    return pay_rate_;
+    return pay_rate;
 }
 std::string PayrollData::get_first_name() const{
     return first_name;
