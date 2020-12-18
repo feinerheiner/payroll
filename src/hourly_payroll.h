@@ -13,7 +13,7 @@ public:
     static const double kMaxHours;
     static const double kRegularHours;
     static const double kOvertimeRate;
-    static const double kMinimumWage;
+    static const double kMinWage;
 
     HourlyPayroll();
     HourlyPayroll(double hours_worked, double pay_rate, std::string name);
@@ -22,9 +22,10 @@ public:
     double get_hours() const;
     void set_pay_rate(double pay_rate);
     void set_hours(double hours_worked);
-    virtual double ComputeGross() const;
-    virtual void WriteData(std::ostream &out) const;
-    virtual void WriteReport(std::ostream &out) const;
+
+    double ComputeGross() const override;
+    void WriteData(std::ostream& out) const override;
+    void WriteReport(std::ostream& out) const override;
 
 };
 

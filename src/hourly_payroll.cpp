@@ -12,11 +12,11 @@ const double HourlyPayroll::kMinHours = 0;
 const double HourlyPayroll::kMaxHours = 168;
 const double HourlyPayroll::kRegularHours = 40;
 const double HourlyPayroll::kOvertimeRate = 1.5;
-const double HourlyPayroll::kMinimumWage = 7.25;
+const double HourlyPayroll::kMinWage = 7.25;
 
 //How do I reference the variables in payroll_data.cpp?
 HourlyPayroll::HourlyPayroll() : PayrollData() {
-    set_pay_rate(kMinimumWage);
+    set_pay_rate(kMinWage);
     set_hours(kMinHours);
 
 }
@@ -31,8 +31,8 @@ double HourlyPayroll::get_hours() const {
     return hours_;
 }
 void HourlyPayroll::set_pay_rate(double pay_rate){
-    if(pay_rate < kMinimumWage){
-        PayrollData::set_pay_rate(kMinimumWage);
+    if(pay_rate < kMinWage){
+        PayrollData::set_pay_rate(kMinWage);
     }else{PayrollData::set_pay_rate(pay_rate);}
 }
 void HourlyPayroll::set_hours(double hours_worked){

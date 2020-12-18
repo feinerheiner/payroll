@@ -217,7 +217,7 @@ has it inherit from the `PayrollData` class. Use public inheritance.
     - kMaxHours - a double for the maximum number of hours allowed
     - kRegularHours - a double for the regular hours in a pay period
     - kOvertimeRate - a double that specifies the increase in rate for overtime hours
-    - kMinimumWage - a double that specifies the minimum pay rate for hourly employees
+    - kMinWage - a double that specifies the minimum pay rate for hourly employees
   - two constructors and a destructor
     - HourlyPayroll();
     - HourlyPayroll(double hours_worked, double pay_rate, std::string name);
