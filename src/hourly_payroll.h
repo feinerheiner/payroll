@@ -17,7 +17,7 @@ public:
 
     HourlyPayroll();
     HourlyPayroll(double hours_worked, double pay_rate, std::string name);
-    ~HourlyPayroll();
+    virtual~HourlyPayroll();
 
     double get_hours() const;
     void set_pay_rate(double pay_rate);
