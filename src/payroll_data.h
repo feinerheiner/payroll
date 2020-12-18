@@ -3,7 +3,7 @@
 #include <string>
 
 class PayrollData{
-private:
+protected:
     double pay_rate_;
     std::string first_name;
     std::string last_name;

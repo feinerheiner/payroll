@@ -11,9 +11,10 @@ static const double kOvertimeRate = 1.5;
 static const double kMinimumWage = 7.25;
 
 //How do I reference the variables in payroll_data.cpp?
-HourlyPayroll::HourlyPayroll() : pay_rate_(0), first_name("it is"), last_name("unknown"){
-    pay_rate_ = kMinimumWage;
-    hours_ = kMinHours;
+HourlyPayroll::HourlyPayroll(){
+    set_pay_rate(kMinimumWage);
+    set_hours(kMinHours);
+
 }
 HourlyPayroll::HourlyPayroll(double hours_worked, double pay_rate, std::string name) {
     set_pay_rate(pay_rate);
