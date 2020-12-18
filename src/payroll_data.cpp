@@ -34,3 +34,12 @@ void PayrollData::set_pay_rate(double pay_rate) {
         pay_rate_ = pay_rate;
     }
 }
+double PayrollData::get_pay_rate() const{
+    return pay_rate_;
+}
+std::string PayrollData::get_first_name() const{
+    return first_name;
+}
+std::string PayrollData::get_last_name() const{
+    return last_name;
+}

@@ -4,7 +4,7 @@
 
 class PayrollData{
 private:
-    int pay_rate_;
+    double pay_rate_;
     std::string first_name;
     std::string last_name;
 
