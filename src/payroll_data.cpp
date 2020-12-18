@@ -4,13 +4,13 @@
 #include <iomanip>
 
 
-/**
- * @brief Sets the values to these static constant variables.
- * @remark These values can not be changed.
- */
-const double PayrollData::kMinimumWage = 7.25;
-const double PayrollData::kRegularHours = 40;
-const double PayrollData::kOvertimeRate = 1.5;
+// /**
+// * @brief Sets the values to these static constant variables.
+// * @remark These values can not be changed.
+// */
+//const double PayrollData::kMinimumWage = 7.25;
+//const double PayrollData::kRegularHours = 40;
+//const double PayrollData::kOvertimeRate = 1.5;
 
 PayrollData::PayrollData() : pay_rate_(0), first_name("it is"), last_name("unknown") { }
 PayrollData::PayrollData(double pay_rate, std::string name){
@@ -35,8 +35,8 @@ void PayrollData::set_name(std::string name) {
  * @param pay_rate a double that specifies the dolors per hour that is earned.
  */
 void PayrollData::set_pay_rate(double pay_rate) {
-    if (pay_rate < kMinimumWage){
-        pay_rate_ = kMinimumWage;
+    if (pay_rate < 0){
+        pay_rate_ = 0;
     }else{
         pay_rate_ = pay_rate;
     }

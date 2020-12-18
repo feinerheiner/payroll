@@ -20,10 +20,14 @@ public:
 
     void set_pay_rate(double pay_rate);
     void set_name(std::string name);
+    virtual double ComputeGross() = 0;
+    virtual void WriteData(std::string output_file) = 0;
+    virtual void WriteReport(std::string output_file) = 0;
 
-    static const double kMinimumWage;
-    static const double kRegularHours;
-    static const double kOvertimeRate;
+//    static const double kMinimumWage;
+//    static const double kRegularHours;
+//    static const double kOvertimeRate;
+
 
 };
 
