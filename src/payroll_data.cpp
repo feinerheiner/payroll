@@ -29,9 +29,9 @@ void PayrollData::set_name(std::string name) {
  */
 void PayrollData::set_pay_rate(double _pay_rate) {
     if (_pay_rate < 0){
-        pay_rate = 0;
+        this->pay_rate = 0;
     }else{
-        pay_rate = _pay_rate;
+        this->pay_rate = _pay_rate;
     }
 }
 double PayrollData::get_pay_rate() const{

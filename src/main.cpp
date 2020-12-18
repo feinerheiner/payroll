@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "hourly_payroll.h"
 
 // author Richard Heiner
 
@@ -11,6 +12,7 @@ int main() {
 
   // Create HourlyPayroll objects using the default and non-default
   // constructors.
+
 
   // Use the HourlyPayroll objects to call the getter and setter methods.
   // Print out the results to see that the methods are doing what is expected.

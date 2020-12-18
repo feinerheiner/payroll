@@ -22,9 +22,9 @@ public:
     double get_hours() const;
     void set_pay_rate(double pay_rate);
     void set_hours(double hours_worked);
-    double ComputeGross() const;
-    void WriteData(std::ostream &out) const;
-    void WriteReport(std::ostream &out) const;
+    virtual double ComputeGross() const;
+    virtual void WriteData(std::ostream &out) const;
+    virtual void WriteReport(std::ostream &out) const;
 
 };
 
