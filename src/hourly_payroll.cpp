@@ -2,13 +2,17 @@
 #include <fstream>
 #include <iostream>
 #include <iomanip>
+#include <string>
+#include "payroll_data.h"
+
+using namespace std;
 
 
-const double kMinHours = 0;
-const double kMaxHours = 168;
-const double kRegularHours = 40;
-const double kOvertimeRate = 1.5;
-const double kMinimumWage = 7.25;
+const double HourlyPayroll::kMinHours = 0;
+const double HourlyPayroll::kMaxHours = 168;
+const double HourlyPayroll::kRegularHours = 40;
+const double HourlyPayroll::kOvertimeRate = 1.5;
+const double HourlyPayroll::kMinimumWage = 7.25;
 
 //How do I reference the variables in payroll_data.cpp?
 HourlyPayroll::HourlyPayroll() : PayrollData() {
