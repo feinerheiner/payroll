@@ -43,27 +43,28 @@ void HourlyPayroll::set_hours(double hours_worked){
     }else {hours_ = hours_worked;}
 }
 double HourlyPayroll::ComputeGross() const{
-    double gross_pay;
-    double over_pay;
+    double gross_pay = 0.0;
     double payRate = get_pay_rate();//should or could this be a pointer?
-    int over_hours;
+    double over_hours = 0;
     if (hours_<= kRegularHours){
         gross_pay = hours_ * payRate;
-    }
-    if (kRegularHours < hours_){
+    }else {
         over_hours = hours_-kRegularHours;
-        over_pay = over_hours*payRate*kOvertimeRate;
-        gross_pay = kRegularHours*payRate+over_pay;
+        gross_pay = (kRegularHours*payRate)+((over_hours * payRate) * kOvertimeRate);
+
     }
+//    cout << gross_pay << endl;
     return gross_pay;
 }
 void HourlyPayroll::WriteData(std::ostream &out) const{
-    out << "H " << get_hours() << " " << get_pay_rate() << " " << ComputeGross() <<
-    "\n" << get_last_name() << ", " << get_first_name() << endl;
+    out << "H " << std::fixed << std::setprecision(2)
+    << get_hours() << " " << get_pay_rate() << " " << ComputeGross()
+    << "\n" << get_last_name() << ", " << get_first_name() << endl;
 }
 void HourlyPayroll::WriteReport(std::ostream &out) const{
+    double pay = ComputeGross();
     out << get_first_name() << " " << get_last_name() << "\n"
-    << std::setprecision(2)
+    << std::fixed << std::setprecision(2)
     << "   Hours Worked: " << get_hours() << "\n"
     << "   Pay Rate: $" << get_pay_rate() << "\n"
     << "   Gross Pay: $" << ComputeGross() << endl;
