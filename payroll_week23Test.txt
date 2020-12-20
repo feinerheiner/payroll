@@ -1,0 +1,96 @@
+Bill Collins
+   Hours Worked: 42.00
+   Pay Rate: $17.25
+   Gross Pay: $741.75
+Bart Smith
+   Hours Worked: 37.50
+   Pay Rate: $12.45
+   Gross Pay: $466.88
+Carol Wilson
+   Pay Rate: $1298.20
+   Gross Pay: $1298.20
+Jim Allen
+   Hours Worked: 40.00
+   Pay Rate: $21.00
+   Gross Pay: $840.00
+Jim Griffin
+   Pay Rate: $22.50
+   How Many: 47
+   Commission: $1057.50
+   Base Pay: $835.00
+   Gross Pay: $1892.50
+Marty Stamey
+   Pay Rate: $12.60
+   How Many: 52
+   Commission: $655.20
+   Base Pay: $1215.00
+   Gross Pay: $1870.20
+Geri Rose
+   Hours Worked: 31.75
+   Pay Rate: $22.15
+   Gross Pay: $703.26
+Terri K. Taylor
+   Hours Worked: 51.00
+   Pay Rate: $25.00
+   Gross Pay: $1412.50
+Willie Long
+   Pay Rate: $3281.60
+   Gross Pay: $3281.60
+Jill Johnson
+   Hours Worked: 33.00
+   Pay Rate: $14.50
+   Gross Pay: $478.50
+Jeff Allison
+   Hours Worked: 40.00
+   Pay Rate: $27.35
+   Gross Pay: $1094.00
+Joe I. Looney
+   Hours Worked: 0.00
+   Pay Rate: $15.00
+   Gross Pay: $0.00
+Bill Wolfe
+   Pay Rate: $8.50
+   How Many: 62
+   Commission: $527.00
+   Base Pay: $2250.00
+   Gross Pay: $2777.00
+Betty Hadden
+   Pay Rate: $2154.00
+   Gross Pay: $2154.00
+Jean Will James
+   Pay Rate: $120.00
+   How Many: 16
+   Commission: $1920.00
+   Base Pay: $900.00
+   Gross Pay: $2820.00
+Jim Weaver
+   Pay Rate: $1845.00
+   Gross Pay: $1845.00
+Bob E. Pore
+   Hours Worked: 40.50
+   Pay Rate: $24.50
+   Gross Pay: $998.38
+Greg Rutherford
+   Hours Worked: 27.00
+   Pay Rate: $14.75
+   Gross Pay: $398.25
+Renee C. Javens
+   Hours Worked: 49.80
+   Pay Rate: $28.40
+   Gross Pay: $1553.48
+Rose Harrison
+   Pay Rate: $1895.00
+   Gross Pay: $1895.00
+Cathy Setzer
+   Hours Worked: 12.75
+   Pay Rate: $12.60
+   Gross Pay: $160.65
+Gordon J. Pike
+   Pay Rate: $1920.00
+   Gross Pay: $1920.00
+Beth R. Holland
+   Pay Rate: $18.20
+   How Many: 96
+   Commission: $1747.20
+   Base Pay: $312.00
+   Gross Pay: $2059.20

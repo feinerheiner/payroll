@@ -44,7 +44,7 @@ void ProcessPayroll(std::string inputFile, std::string outputFile){
                 break;
 
             case 'H':
-                in >> pay_rate;
+                in >> hours;
                 in >> pay_rate;
                 in.ignore();
                 getline(in, name);
@@ -54,6 +54,12 @@ void ProcessPayroll(std::string inputFile, std::string outputFile){
     }
     in.close();
     ofstream out(outputFile);
-    
+    for(int i = 0; i < list.size(); i ++){
+        list[i]->WriteReport(out);
+    }
+    for(PayrollData* &one_ptr : list){
+        delete one_ptr;
+        one_ptr = NULL;
+    }
 
 }

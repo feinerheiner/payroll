@@ -3,6 +3,7 @@
 #include "hourly_payroll.h"
 #include "salary_payroll.h"
 #include "commission_payroll.h"
+#include "process_payroll.h"
 #include <fstream>
 
 // author Richard Heiner
@@ -115,48 +116,10 @@ int main() {
 
     std::ofstream out("test.out");
 
-    CommissionPayroll commission1(63, 28, 975.6, "Johnson, Kim");
-    CommissionPayroll commission2(14.92, 61, 455.80, "John Jones");
-    commission1.WriteReport(out);
-    commission2.WriteReport(out);
-    out.close();
-
-//    std::ifstream in("test.out");
-//    if (in.fail()) {
-//        REQUIRE("File Opened" == "Unable to open file");
-//    }
-//    std::string line;
-//
-//    getline(in, line);
-//    REQUIRE(line == "Kim Johnson");
-//    getline(in, line);
-//    REQUIRE(line == "   Pay Rate: $63.00");
-//    getline(in, line);
-//    REQUIRE(line == "   How Many: 28");
-//    getline(in, line);
-//    REQUIRE(line == "   Commission: $1764.00");
-//    getline(in, line);
-//    REQUIRE(line == "   Base Pay: $975.60");
-//    getline(in, line);
-//    REQUIRE(line == "   Gross Pay: $2739.60");
-//    getline(in, line);
-//    REQUIRE(line == "John Jones");
-//    getline(in, line);
-//    REQUIRE(line == "   Pay Rate: $14.92");
-//    getline(in, line);
-//    REQUIRE(line == "   How Many: 61");
-//    getline(in, line);
-//    REQUIRE(line == "   Commission: $910.12");
-//    getline(in, line);
-//    REQUIRE(line == "   Base Pay: $455.80");
-//    getline(in, line);
-//    REQUIRE(line == "   Gross Pay: $1365.92");
-//    getline(in, line);
-//    REQUIRE(line == "");
-//    in.close();
-
     // run the ProcessPayroll function
   cout << "The ProcessPayroll function.\n";
+  ProcessPayroll("../../payroll_week23.txt", "../../payroll_week23Test.txt");
+
 
   // In main, call the  ProcessPayroll function.
   // See that it is producing the expected report.

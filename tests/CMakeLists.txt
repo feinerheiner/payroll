@@ -5,7 +5,7 @@ set(UNIT_TEST_LIST
   hourly_payroll
   salary_payroll          #uncomment to run salary_payroll tests
   commission_payroll      #uncomment to run commission_payroll tests
-  #process_payroll         #uncomment to run process_payroll tests
+  process_payroll         #uncomment to run process_payroll tests
   ) 
 
 #
